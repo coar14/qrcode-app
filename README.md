@@ -87,5 +87,3 @@ If you wish to contribute to this project, feel free to submit a pull request or
 This project is open-source and available under the [MIT License](LICENSE).
 
 ---
-
-Let me know if you need more customization!
