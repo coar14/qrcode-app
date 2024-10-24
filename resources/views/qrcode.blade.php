@@ -38,15 +38,15 @@
                 @csrf
                 <div class="form-group">
                     <label for="start">Start Number:</label>
-                    <input type="number" name="start" id="start" class="form-control" value="1" required>
+                    <input type="number" name="start" id="start" class="form-control" placeholder="1" required>
                 </div>
                 <div class="form-group">
                     <label for="end">End Number:</label>
-                    <input type="number" name="end" id="end" class="form-control" value="999" required>
+                    <input type="number" name="end" id="end" class="form-control" placeholder="999" required>
                 </div>
                 <div class="form-group">
                     <label for="label">Label:</label>
-                    <input type="text" name="label" id="label" class="form-control" value="Code" required>
+                    <input type="text" name="label" id="label" class="form-control" placeholder="Code" required>
                 </div>
                 <button type="submit" class="btn btn-primary">Generate QR Codes</button>
             </form>
@@ -80,15 +80,15 @@
             <form action="{{ route('qrcode.downloadCsv') }}" method="GET">
                 <div class="form-group">
                     <label for="csv_start">Start Number:</label>
-                    <input type="number" name="start" id="csv_start" class="form-control" value="1" required>
+                    <input type="number" name="start" id="csv_start" class="form-control" placeholder="1" required>
                 </div>
                 <div class="form-group">
                     <label for="csv_end">End Number:</label>
-                    <input type="number" name="end" id="csv_end" class="form-control" value="999" required>
+                    <input type="number" name="end" id="csv_end" class="form-control" placeholder="999" required>
                 </div>
                 <div class="form-group">
                     <label for="csv_label">Label:</label>
-                    <input type="text" name="label" id="csv_label" class="form-control" value="Code" required>
+                    <input type="text" name="label" id="csv_label" class="form-control" placeholder="Code" required>
                 </div>
                 <button type="submit" class="btn btn-info">Download CSV</button>
             </form>
